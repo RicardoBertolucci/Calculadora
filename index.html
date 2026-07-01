@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Calculadora</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c563b4c310.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Calculadora -->
+    <div class="calculator">
+      <p class="calculator__display">0</p>
+      <div class="calculator__buttons">
+        <button class="calculator__button calculator__button--remove">
+          <i
+            class="fa-solid fa-delete-left"
+            style="color: rgb(255, 255, 255)"
+          ></i>
+        </button>
+        <button class="calculator__button calculator__button--clean">C</button>
+        <button class="calculator__button calculator__button--percent operator">%</button>
+        <button class="calculator__button calculator__button--division operator">/</button>
+
+        <button class="calculator__button calculator__button--number">7</button>
+        <button class="calculator__button calculator__button--number">8</button>
+        <button class="calculator__button calculator__button--number">9</button>
+        <button class="calculator__button calculator__button--multiply operator">X</button>
+
+        <button class="calculator__button calculator__button--number">4</button>
+        <button class="calculator__button calculator__button--number">5</button>
+        <button class="calculator__button calculator__button--number">6</button>
+        <button class="calculator__button calculator__button--minus operator">-</button>
+
+        <button class="calculator__button calculator__button--number">1</button>
+        <button class="calculator__button calculator__button--number">2</button>
+        <button class="calculator__button calculator__button--number">3</button>
+        <button class="calculator__button calculator__button--plus operator">+</button>
+
+        <button class="calculator__button calculator__button--inverse operator">+/-</button>
+        <button class="calculator__button calculator__button--number">0</button>
+        <button class="calculator__button calculator__button--comma">,</button>
+        <button class="calculator__button calculator__button--equal">=</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
